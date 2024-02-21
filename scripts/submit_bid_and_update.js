@@ -26,7 +26,7 @@ const OUR_DEPLOYED_MULTICALL_CONTRACT_ADDRESS = "0xF6f7f3667Cf5A047Bd6aE7dE36364
 const PRICE = parseEther("52605");                                                        // The price point you a bidding lower or higher than
 const GREATER_OR_LOWER = "LTE";                                                           // Setting if it will be "less than or equal to" (either "LTE" or "GTE")
 const BID_AMOUNT = parseEther("0.01");                                                    // The amount of ETH you are bidding to win this auction and perform the oracle update
-const PUBLIC_ADDRESS_OF_THE_BIDDER = "0xe2b8651bF50913057fF47FC4f02A8e12146083B8";        // The wallet address of the signer doing the bid
+const PUBLIC_ADDRESS_OF_THE_BIDDER = "0x66ed1ff3f0D920C6fe2951E1905a4126642D3F42";        // The wallet address of the signer doing the bid
 
 // Setup our contract object for the auction house on OEV test network
 const provider = new JsonRpcProvider("https://oev-network-sepolia-testnet-rpc.eu-north-2.gateway.fm");
